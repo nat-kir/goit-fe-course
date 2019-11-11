@@ -2,52 +2,47 @@
   margin: 0;
   padding: 0;
 }
-html {
-  width: 1200px;
-  margin: auto;
-}
+
 body {
-  margin: 85px 150px;
   font-family: "Playfair Display", serif;
   color: #626262;
   font-size: 14px;
   font-weight: 400;
 }
 
-nav {
-  display: block;
-  height: 42px;
-  width: 65%;
-  margin: auto;
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.navigation {
+  padding: 75px 165px 100px 165px;
 }
 
 nav ul li {
-  display: block;
-  float: left;
-  width: 25%;
+  display: inline-block;
+  margin-right: 100px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
 }
 
 nav ul li a {
-  display: block;
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
   font-size: 14px;
   width: 113px;
-  line-height: 42px;
-  color: #03a9f4;
   font-weight: 400;
 }
+
 nav ul li a:hover {
   color: #03a9f4;
 }
 
 a:visited {
   color: #626262;
-}
-
-main {
-  margin-top: 100px;
 }
 
 .article {
@@ -57,12 +52,12 @@ main {
   width: calc(50% - 30px);
 }
 
-.left {
-  margin-right: 28px;
+article:nth-child(odd) {
+  margin-right: 56px;
 }
 
-.right {
-  margin-left: 28px;
+article:nth-child(even) {
+  margin-right: 0;
 }
 
 .text-article {
@@ -92,13 +87,17 @@ h2 {
   font-weight: 300;
 }
 
+.button {
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
 button {
   display: block;
   border: 1px solid #626262;
   height: 60px;
   width: 164px;
-  margin: auto;
-  margin-top: 20px;
+  margin: 0 auto;
   background-color: #fff;
   font-size: 20px;
   color: #626262;
