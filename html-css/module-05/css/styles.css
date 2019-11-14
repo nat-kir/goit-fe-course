@@ -21,23 +21,30 @@ header {
   padding-bottom: 24px;
 }
 
-.logo a {
+.logo {
   float: left;
   text-transform: uppercase;
-  text-decoration: none;
   font-size: 30px;
   color: #555252;
   font-family: "Roboto";
   font-weight: 300;
 }
 
-.logo a::first-letter {
+.logo::first-letter {
   text-transform: uppercase;
   text-decoration: none;
   font-size: 30px;
   color: #1abc9c;
   font-family: "Roboto";
   font-weight: 900;
+}
+
+.logo-link {
+  text-decoration: none;
+}
+
+.logo-link:visited {
+  color: #555252;
 }
 
 /* menu */
