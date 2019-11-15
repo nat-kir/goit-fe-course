@@ -88,7 +88,6 @@ main {
 
 .slider {
   position: relative;
-  width: 100%;
   height: 600px;
   margin-bottom: 120px;
 }
@@ -103,7 +102,6 @@ main {
 .arrows-header {
   position: absolute;
   width: 1110px;
-  height: 120px;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -177,8 +175,7 @@ h2 {
 
 .item {
   width: 255px;
-  height: 322px;
-}
+  }
 
 ul {
   list-style: none;
@@ -197,10 +194,9 @@ ul {
   text-transform: uppercase;
 }
 
-.item a {
+ .img-item {
   display: block;
-  width: 255px;
-  height: 282px;
+ 
 }
 h3 {
   float: left;
