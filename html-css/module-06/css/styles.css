@@ -87,16 +87,59 @@
   justify-content: space-between;
   margin-bottom: 90px;
   margin-top: 10px;
+  }
+
+.alarm::before{
+  display: block;
+  content: ""; 
+  width: 74px;
+  background-image: url('../img/ALARM.png');
+  background-repeat: no-repeat;
+  background-position:  center top;
+}
+.line-graph::before{
+  display: block;
+  content: ""; 
+  width: 74px;
+  background-image: url('../img/LINE_GRAPH.png');
+  background-repeat: no-repeat;
+  background-position:  center top;
+}
+.computer::before{
+  display: block;
+  content: ""; 
+  width: 74px;
+  background-image: url('../img/COMPUTER.png');
+  background-repeat: no-repeat;
+  background-position:  center top;
+}
+.book::before{
+  display: block;
+  content: ""; 
+  width: 74px;
+  background-image: url('../img/BOOK.png');
+  background-repeat: no-repeat;
+  background-position:  center top;
+}
+.home::before{
+  display: block;
+  content: ""; 
+  width: 74px;
+  background-image: url('../img/HOME.png');
+  background-repeat: no-repeat;
+  background-position:  center top;
+}
+.image::before{
+  display: block;
+  content: ""; 
+  width: 74px;
+  background-image: url('../img/IMAGE.png');
+  background-repeat: no-repeat;
+  background-position:  center top;
 }
 .card-text {
-  width: 300px;
-}
-.card-logo {
-  width: 74px;
-}
-.card-logo img {
   display: block;
-  margin: 0 auto;
+  width: 300px;
 }
 .card-name {
   display: block;
@@ -129,12 +172,10 @@
   margin-bottom: 80px;
 }
 .team-card-pic {
-  display: inline-block;
   position: relative;
   margin-bottom: 30px;
   width: 380px;
-  height: 470px;
-}
+  }
 .overlay {
   display: none;
 }
@@ -227,10 +268,10 @@ input[type="text"] {
   border: 1px solid #e7e7e7;
   font-size: 15px;
   line-height: 24px;
-  color: #cccccc;
+  color: #333333;
   font-family: "Roboto";
   font-weight: 300;
-  font-style: italic;
+  
 }
 input::placeholder {
   font-size: 15px;
