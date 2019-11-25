@@ -45,7 +45,7 @@
 }
 .menu-link:hover {
   color: #fed136;
- }
+}
 .header {
   margin-bottom: 120px;
 }
@@ -78,29 +78,27 @@
 .card {
   width: 290px;
 }
-.card-logo {
+
+.card:before {
   display: block;
+  content: "";
   margin: 0 auto;
   width: 70px;
   height: 70px;
   border: #fed136 3px solid;
-  border-radius: 35px;
+  border-radius: 38px;
   margin-bottom: 23px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.logo-1 {
+.card1:before {
   background-image: url("../img/Icon-Basket.png");
-  background-repeat: no-repeat;
-  background-position: center;
 }
-.logo-2 {
+.card2:before {
   background-image: url("../img/Icon-Laptop.png");
-  background-repeat: no-repeat;
-  background-position: center;
 }
-.logo-3 {
+.card3:before {
   background-image: url("../img/Icon-Locked.png");
-  background-repeat: no-repeat;
-  background-position: center;
 }
 .card-title {
   font-size: 18px;
@@ -168,6 +166,7 @@ textarea {
   background-color: #ffffff;
   border: 1px solid #cccccc;
   padding: 20px;
+  resize: none;
 }
 input::placeholder,
 textarea::placeholder {
@@ -175,6 +174,7 @@ textarea::placeholder {
   color: #bbbbbb;
   font-family: "Montserrat";
   font-weight: 700;
+  text-transform: uppercase;
 }
 input[type="submit"] {
   display: block;
