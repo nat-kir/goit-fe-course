@@ -146,19 +146,19 @@ main {
 }
 .card2:after {
   background-color: #ffa507;
-  background-image: url("../img/Shape_2.png");
+  background-image: url("../img/shape_2.png");
   background-position: center;
   background-repeat: no-repeat;
 }
 .card3:after {
   background-color: #1cd7ad;
-  background-image: url("../img/Shape_3.png");
+  background-image: url("../img/shape_3.png");
   background-position: center;
   background-repeat: no-repeat;
 }
 .card4:after {
   background-color: #4e73db;
-  background-image: url("../img/Shape_4.png");
+  background-image: url("../img/shape_4.png");
   background-position: center;
   background-repeat: no-repeat;
 }
