@@ -7,11 +7,23 @@
   
   .container {
     width: 100%;
-    height: 1000px;
-    background: url("../img/header.png");
+    background: url("../img/header.png") no-repeat;
     background-position: center;
     background-size: cover;
-  }
+    }
+.container-gradient{
+  background: -o-linear-gradient(
+      290deg,
+      rgba(243, 129, 129, 0.85),
+      rgba(252, 227, 138, 0.9)
+    );
+    background: linear-gradient(
+      160deg,
+      rgba(243, 129, 129, 0.85),
+      rgba(252, 227, 138, 0.9)
+    );
+    padding-bottom: 230px;
+}
   .wrapper {
     max-width: 1200px;
     margin: 0 auto;
@@ -106,15 +118,16 @@
     width: 821px;
     margin: 0 auto 110px;
   }
-  .button {
+  .button-header {
     width: 160px;
     height: 40px;
     border: 3px solid #ffffff;
     cursor: pointer;
     margin: 0 auto;
     padding-left: 29px;
+
   }
-  .button__link {
+  .button-header__link {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
